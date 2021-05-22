@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <%- include('partials/head.html') %>
+
+  <title>
+    <%=title %>
+  </title>
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="title">
+      <h1>display:flexbox</h1>
+    </div>
+
+    <div class="contenido">
+      <div class="main"><span>CONTENEDOR</span>
+        <div class="item1">item1
+        </div>
+        <div class="item2">item2
+        </div>
+      </div>
+    </div>
+    <div class="contenido-code">
+      <div class="main-code"><span>CODIGO HTML</span>
+        <pre>
+            <code  class="language-html">
+      &lt;div class="contenedor"&gt;
+          &lt;div class="item1"&gt;item1&lt;/div&gt;
+          &lt;div class="item2"&gt;item2&lt;/div&gt;
+          &lt;div class="item3"&gt;item3&lt;/div&gt;
+      &lt;/div&gt;
+            </code>
+        </pre>
+      </div>
+      <div class="main-code"><span>CODIGO css</span>
+        <pre>
+            <code  class="lang-css">
+    .contenedor{
+      display:flex;
+      flex-direction:column;
+    }
+            </code>
+        </pre>
+      </div>
+    </div>
+  </div>
+
+
+
+  <%- include('partials/footer.html') %>
+</body>
+
+</html>
